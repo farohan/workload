@@ -61,9 +61,9 @@ document.addEventListener("DOMContentLoaded", () => {
             
             taskCard.innerHTML = `
                 <h3>${task.name}</h3>
-                <p>Subject: ${task.subject}</p>
-                <p class="time-estimate">Estimated Time: ${task.time} minutes</p>
-                <p class="due-date">Due: ${task.due}</p>
+                <p>${task.subject}</p>
+                <p class="time-estimate">${task.time} minutes</p>
+                <p class="due-date">${task.due}</p>
                 <button class="delete-btn" data-index="${index}">Delete</button>
             `;
 
